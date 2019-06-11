@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		6C52C28722AFD099008B6724 /* SampleObj.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C52C28522AFD099008B6724 /* SampleObj.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CF31BFE22AFEEF20040271E /* AAA.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CF31BFC22AFEEF20040271E /* AAA.h */; };
+		6CF31BFF22AFEEF20040271E /* AAA.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF31BFD22AFEEF20040271E /* AAA.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6C52C28222AFD099008B6724 /* SampleObj.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SampleObj.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C52C28522AFD099008B6724 /* SampleObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleObj.h; sourceTree = "<group>"; };
 		6C52C28622AFD099008B6724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CF31BFC22AFEEF20040271E /* AAA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAA.h; sourceTree = "<group>"; };
+		6CF31BFD22AFEEF20040271E /* AAA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAA.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,8 @@
 			isa = PBXGroup;
 			children = (
 				6C52C28522AFD099008B6724 /* SampleObj.h */,
+				6CF31BFC22AFEEF20040271E /* AAA.h */,
+				6CF31BFD22AFEEF20040271E /* AAA.m */,
 				6C52C28622AFD099008B6724 /* Info.plist */,
 			);
 			path = SampleObj;
@@ -59,6 +65,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CF31BFE22AFEEF20040271E /* AAA.h in Headers */,
 				6C52C28722AFD099008B6724 /* SampleObj.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CF31BFF22AFEEF20040271E /* AAA.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

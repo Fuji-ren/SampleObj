@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AAA.h"
 
 //! Project version number for SampleObj.
 FOUNDATION_EXPORT double SampleObjVersionNumber;
